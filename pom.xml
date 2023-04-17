@@ -56,7 +56,7 @@
                         <id>install-external</id>
                         <phase>clean</phase>
                         <configuration>
-                            <file>C:\Users\Tommy\Downloads\project-maven-prectice-master\lib\desktop-game-engine.jar</file>
+                            <file>${project.build.directory}\lib\desktop-game-engine.jar</file>
                             <groupId>com.javarush</groupId>
                             <artifactId>desktop-game-engine</artifactId>
                             <version>1.0</version>
